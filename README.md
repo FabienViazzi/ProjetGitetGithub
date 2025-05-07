@@ -101,8 +101,21 @@ Deuxieme partie : les Branches.
 
     Ensuite on utilise la commande "git merge  [branche a fusionner] (ici develop).
 
-    Enfin on commit pour finaliser la fusion : git commit -m "Fusion de la branche develop sur la branche main".
+    Enfin on commit pour finaliser la fusion : git commit -m "Fusion de la branche develop sur la branche main" et on push sur la branche 
+    
+    main.
 
+    résumé :
+
+      - On peut créer une branche via git branch "nom".
+
+      - On peut modifier des données des fichiers sur la branche qu'on créer en ce positionnant dessus : git checkout "nom".
+
+      - On fait ensuite notre add commit et push classique pour l'envoyer dans le depot distant.
+
+      - On peut enfin fusionner les branches , ce placer sur la branche qui va recevoir et faire "git merge nom (ici develop)"
+
+      - on peut commit pour preciser l'interet du merge et push pour finaliser la fusion
 
 
 
