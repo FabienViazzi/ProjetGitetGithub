@@ -58,4 +58,4 @@ Petit Résumé:
 -se placer dans ce dossier pour ecrire du code via votre interface de code
 
 -utiliser les differentes commandes pour envoyer nos fichier sur github
-(git add . / git commit -m "inserer desc commit"/ git push origin main)
+(git add . / git commit -m "inserer desc commit"/ git push -u origin main)
