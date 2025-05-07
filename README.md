@@ -59,3 +59,55 @@ Petit Résumé:
 
 -utiliser les differentes commandes pour envoyer nos fichier sur github
 (git add . / git commit -m "inserer desc commit"/ git push -u origin main)
+
+
+
+
+Deuxieme partie : les Branches.
+
+  Creation d'une branche :
+    
+    On peut créer une branche (au depart on est sur la branche main).
+
+    pour cela il suffit simplement d'utiliser la commande "git branch [nomdelabranche]"
+
+    généralement on a la branche main pour le code "fini" et la branche develop pour 
+
+    eviter de modifier le code qui fonctionne qu'on aurai push dans le main
+
+  Pousser la branche sur git :
+
+    cette étape permet de partager votre travail avec d'autre developpers en 
+    
+    poussant la branche sur le repo distant.
+
+    Pour cela on utilisera "git push -u origin [nomdelabranche]".
+
+    Grâçe a cela on créer notre branche sur github et la lie a la branche local.
+
+  Faire des modifications sur la branche :
+
+    Il faut premièrement ce placer sur la branche que l'on souhaite modifier via "git checkout [nomdelabranche]".
+
+    puis comme pour un fichier on va l'add -> commit -> push les données.
+
+  Fusionner deux branches : 
+
+    Pour fusionner deux branches on se place d'abord sur la branche qui dois recevoir les nouvelles données (ex: is on a la branceh main
+    
+    et develop et qu'on souhaite ajouter des fonctionnalitées qui foncitonne dans la branche main on se place sur la branche main via 
+    
+    "git checkout main").
+
+    Ensuite on utilise la commande "git merge  [branche a fusionner] (ici develop).
+
+    Enfin on commit pour finaliser la fusion : git commit -m "Fusion de la branche develop sur la branche main".
+
+
+
+
+
+
+
+
+
